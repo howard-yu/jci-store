@@ -20,18 +20,32 @@ body {
 
 /* Titles */
 h5 {
-    color:azure;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1.6px;
+    color: azure;
 }
 
-h1, h2, h3, h4, h6 {
-    font-family: "Raleway";
+h1, h2, h4, h6 {
+    font-family: DFKai-SB;
     font-weight: 300;
     color: #333;
+}
+
+h3 {
+    font-family: DFKai-SB;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1.6px;
+    color: #4a4a4a;
 }
 
 
 /* Paragraph & Typographic */
 p {
+    font-family: DFKai-SB;
+    font-size: 18px;
     line-height: 28px;
     margin-bottom: 25px;
 }
@@ -132,6 +146,11 @@ a:after {
     letter-spacing: 2px;
 }
 
+#headerwrap button {
+    font-family:DFKai-SB;
+    font-size:20px;
+}
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
@@ -157,6 +176,7 @@ a:after {
 .home-feature .h4 {
     margin-top: 1em;
     margin-bottom: 2em;
+    font-family:DFKai-SB;
 }
 
 
@@ -170,11 +190,24 @@ a:after {
 
 
 /* White Wrap */
+#x  button{
+    font-family:DFKai-SB;
+}
+
+#x p {
+    font-family: DFKai-SB;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 
 #w {
     background: #e0e0e0;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     text-align: center;
 }
 
@@ -198,19 +231,28 @@ a:after {
 	text-align: center;
 }
 
-#g p {
-    font-weight: 700;
-    color: #7b7b7b;
-    letter-spacing: 1px;
+#g li {
+    font-family:DFKai-SB;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1.6px;
+    color: #4a4a4a;
 }
 
-#g li {
-    font-weight: 700;
-    color: #7b7b7b;
-    letter-spacing: 1px;
+
+#g p {
+    font-family: DFKai-SB;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 #g bold {
+    font-family:DFKai-SB;
+    font-size:18px;
     color: #2f2f2f;
 }
 /* Dark Grey Wrap */

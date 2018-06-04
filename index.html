@@ -15,14 +15,14 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
+    <script type="text/javascript">var _jf = _jf || []; _jf.push(['p', '50769']); _jf.push(['_setFont', 'sourcehansans-tc-normal', 'css', '.sourcehansans-tc-normal']); _jf.push(['_setFont', 'sourcehansans-tc-normal', 'alias', 'sourcehansans-tc']); _jf.push(['_setFont', 'sourcehansans-tc-normal', 'weight', 300]); (function (f, q, c, h, e, i, r, d) { var k = f._jf; if (k.constructor === Object) { return } var l, t = q.getElementsByTagName("html")[0], a = function (u) { for (var v in k) { if (k[v][0] == u) { if (false === k[v][1].call(k)) { break } } } }, j = /\S+/g, o = /[\t\r\n\f]/g, b = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, g = "".trim, s = g && !g.call("\uFEFF\xA0") ? function (u) { return u == null ? "" : g.call(u) } : function (u) { return u == null ? "" : (u + "").replace(b, "") }, m = function (y) { var w, z, v, u, x = typeof y === "string" && y; if (x) { w = (y || "").match(j) || []; z = t[c] ? (" " + t[c] + " ").replace(o, " ") : " "; if (z) { u = 0; while ((v = w[u++])) { if (z.indexOf(" " + v + " ") < 0) { z += v + " " } } t[c] = s(z) } } }, p = function (y) { var w, z, v, u, x = arguments.length === 0 || typeof y === "string" && y; if (x) { w = (y || "").match(j) || []; z = t[c] ? (" " + t[c] + " ").replace(o, " ") : ""; if (z) { u = 0; while ((v = w[u++])) { while (z.indexOf(" " + v + " ") >= 0) { z = z.replace(" " + v + " ", " ") } } t[c] = y ? s(z) : "" } } }, n; k.push(["_eventActived", function () { p(h); m(e) }]); k.push(["_eventInactived", function () { p(h); m(i) }]); k.addScript = n = function (u, A, w, C, E, B) { E = E || function () { }; B = B || function () { }; var x = q.createElement("script"), z = q.getElementsByTagName("script")[0], v, y = false, D = function () { x.src = ""; x.onerror = x.onload = x.onreadystatechange = null; x.parentNode.removeChild(x); x = null; a("_eventInactived"); B() }; if (C) { v = setTimeout(function () { D() }, C) } x.type = A || "text/javascript"; x.async = w; x.onload = x.onreadystatechange = function (G, F) { if (!y && (!x.readyState || /loaded|complete/.test(x.readyState))) { y = true; if (C) { clearTimeout(v) } x.src = ""; x.onerror = x.onload = x.onreadystatechange = null; x.parentNode.removeChild(x); x = null; if (!F) { setTimeout(function () { E() }, 200) } } }; x.onerror = function (H, G, F) { if (C) { clearTimeout(v) } D(); return true }; x.src = u; z.parentNode.insertBefore(x, z) }; a("_eventPreload"); m(h); n(r, "text/javascript", false, 3000) })(this, this.document, "className", "jf-loading", "jf-active", "jf-inactive", "//ds.justfont.com/js/stable/v/5.0.3/id/216937682182");</script>
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/Chart.js"></script>
 	
 
 	
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,14 +36,14 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Onassis</a></h1>
+			<h1 class="logo"><a href="index.html#home">JCI-PLAN</a></h1>
 			<i class="icon-remove menu-close"></i>
-			<a href="#home" class="smoothScroll">Home</a>
-			<a href="#services" class="smoothScroll">Services</a>
-			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#ourteam" class="smoothScroll">Our Team</a>
+			<a href="#services" class="smoothScroll">Our Services</a>
+			<a href="#successful" class="smoothScroll">Successful Case</a>
 			<a href="#about" class="smoothScroll">About</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
-			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="https://www.facebook.com/JCI-Plan-1172841306153010/"><i class="icon-facebook"></i></a>
 		</div>
 		
 		<!-- Menu button -->
@@ -59,7 +59,7 @@
 			<br>
 			<h1>JCI-PLAN</h1>
 			<div class="container">
-                <button class="btn btn-danger btn-lg" type="button" onclick="location.href='#signup'">您的專屬行銷幫手</button>
+                <button class="btn btn-danger btn-lg" type="button" onclick="location.href='#portfolio'">您的專屬行銷幫手</button>
             </div>
 			<div class="row">
 				<br>
@@ -73,40 +73,48 @@
 	
 	
 	<!-- ========== WHITE SECTION ========== -->
+    <section id="ourteam" name="ourteam"></section>
 	<div id="w">
 		<div class="container">
 			<div class="row">
 				<div class="home-feature col-lg-8 col-lg-offset-2">
-                    <h4 class="text-center">行銷活動規劃執行</h4>
-                    <h4 class="text-center">社群網站行銷暨代管</h4>
-                    <h4 class="text-center">中英文文案撰寫</h4>
-                    <h4 class="text-center">國內外展場暨會議顧問執行</h4>
+                    <h3 class="text-center">行銷活動規劃執行</h3>
+                    <h3 class="text-center">社群網站行銷暨代管</h3>
+                    <h3 class="text-center">中英文文案撰寫</h3>
+                    <h3 class="text-center">國內外展場暨會議顧問執行</h3>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /w -->
     <!-- ========== SERVICES ========== -->
-    <section id="services 1" name="services 1"></section>
     <div id="x">
         <div class="row featurette">
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="../assets/img/featurette.jpg" alt="Generic placeholder image" heigth="500">
+                <img class="featurette-image img-responsive" src="../assets/img/featurette.jpg" alt="Generic placeholder image">
+                <p>
+                    <div style="text-align:center">
+                        <h2>加入JCI-PLAN，行銷一次搞定</h2>
+                    </div>
+                    <div class="col-md-5 col-lg-offset-2 " style="text-align:center">
+                        <button class="btn btn-danger btn-lg" type="button" onclick="location.href='#portfolio'">立即加入JCI-PLAN了解各項服務</button>
+                    </div>
+                </p>
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">JCI-Plan <span class="text-muted">不同於傳統廣告公司</span></h2>
-                <p class="lead">我們是一個“顧問+執行”的服務團隊，為客戶提供在品牌行銷及市場開拓兩個領域的 “策劃+設計+執行”全程服務。</p>
+                <h2 class="featurette-heading">JCI-Plan <span class="featurette-heading">不同於傳統廣告公司</span></h2>
+                <p>我們是一個"顧問+執行"的服務團隊，為客戶提供在品牌行銷及市場開拓兩個領域的"策劃+設計+執行"全程服務。</p>
             </div>
             <div class="col-md-5">
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">JCI-Plan <span class="text-muted">為中小型廠商提供“行銷部外包”服務</span></h2>
-                <p class="lead">JCI-Plan為中小型廠商提供“行銷部外包”服務，針對客戶的需求及費用預算，為客戶整合各類市場資源，除了協助尋找性價比最佳的市場方案外，還提供後續方案執行服務，讓中小型企業雖然沒有大企業的專業市場部門，也能享受國際化及專業的行銷服務。</p>
+                <h2 class="featurette-heading">JCI-Plan <span class="featurette-heading">為中小型廠商提供"行銷部外包"服務</span></h2>
+                <p>為中小型廠商提供“行銷部外包”服務，針對客戶的需求及費用預算，為客戶整合各類市場資源，除了協助尋找性價比最佳的市場方案外，還提供後續方案執行服務，讓中小型企業雖然沒有大企業的專業市場部門，也能享受國際化及專業的行銷服務。</p>
             </div>
             <div class="col-md-5">
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">JCI-Plan <span class="text-muted">擁有一個資深且專業的團隊</span></h2>
-                <p class="lead">除了有超過十年以上在跨國公司擔任行銷部門主管的經歷背景外，還與各類服務商如公關公司，媒體媒介，數位行銷公司，展覽公司，設計公司，禮品公司，網站製作公司等保持了密切合作的關係，在這些背景基礎上，我們的團隊有信心為客戶提供360度全方位行銷企劃服務。</p>
+                <h2 class="featurette-heading">JCI-Plan <span class="featurette-heading">擁有一個資深且專業的團隊</span></h2>
+                <p>除了有超過十年以上在跨國公司擔任行銷部門主管的經歷背景外，還與各類服務商如公關公司，媒體媒介，數位行銷公司，展覽公司，設計公司，禮品公司，網站製作公司等保持了密切合作的關係，在這些背景基礎上，我們的團隊有信心為客戶提供360度全方位行銷企劃服務。</p>
             </div>
             </div>
     </div>
@@ -115,33 +123,32 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>OUR SERVICES 公司服務</h3>
-				<br>
-				<br>
+				<h3>OUR SERVICES</h3>
+				<br />
+				<br />
 				<div class="col-lg-4">
 					<img src="assets/img/s1.png">
-					<h4>您的專屬行銷顧問We Consult</h4>
+					<h3 class="h3 text-center">行銷策劃 We Plan&#160;&#160;&#160;&#160;&#160;&#160;</h3>
                     <ul>
-                        <li class="text-left">瞭解推廣需求及企業行銷策略</li>
-                        <li class="text-left">提出行銷服務整合計畫</li>
+                        <li class="text-left">瞭解客戶行銷需求及對象</li>
+                        <li class="text-left">提出整合行銷策略</li>
                         <li class="text-left">協助企業撰寫行銷計畫</li>
                     </ul>
 				</div>
 				<div class="col-lg-4">
 					<img src="assets/img/s2.png">
-					<h4>您的專屬行銷執行團隊Your Marketer</h4>
-                    <h4>各項行銷計畫及活動執行服務內容：</h4>
+					<h3 class="h3 text-center">行銷管理 Your Marketer</h3>
                     <ul>
-                        <li class="text-left">文案撰寫：新媒體傳播文案，PR公關稿，社群網站( Facebook , Line@,微店)行銷文案撰寫</li>
+                        <li class="text-left">文案撰寫：新媒體傳播文案，PR公關稿，社群網站(Facebook,Line@,微店)行銷文案撰寫</li>
                         <li class="text-left">媒體發稿：大眾媒體，行業媒體，主流網路媒體，自媒體等</li>
-                        <li class="text-left">社群網站帳號運營代管：FB, LinkedIn, 微信朋友圈，微博帳戶等</li>
+                        <li class="text-left">社群網站帳號運營代管：FB,LinkedIn,微信朋友圈，微博帳戶等</li>
                     </ul>
 				</div>
 				<div class="col-lg-4">
 					<img src="assets/img/s3.png">
-					<h4>會議暨展場規劃Event Planner</h4>
+					<h3 class="h3 text-center">活動家 Event Organizer</h3>
                     <ul>
-                        <li class="text-left">大型會議籌劃辦理 (國際研討會，企業會議)</li>
+                        <li class="text-left">大型會議籌劃辦理(國際研討會，企業會議)</li>
                         <li class="text-left">新聞發佈會，產品發表會，技術研討會，買賣對接會及代理參展等方面的線下活動執行</li>
                         <li class="text-left">跨國展覽籌畫</li>
                     </ul>
@@ -151,73 +158,44 @@
 	</div><!-- /g -->
 	
 	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+    <section id="successful" name="successful"></section>
 	<div id="dg">
-		<div class="container">
-			<div class="row">
-				<h3>SOME CHARTS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<canvas id="javascript" height="130" width="130"></canvas>
-					<br>
-					<h4>Javascript</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 70,
-									color:"#f85c37"
-								},
-								{
-									value : 30,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-					</script>
-
+        <div class="container">
+            <div class="row">
+                <h3>SUCCESSFUL CASE</h3>
+                <br>
+				<div class="row">
+					<hr></hr>
+					<div class="col-sm-4 ">   
+						<img src="assets/img/boy.png" class="img-thumbnail" alt="Cinque Terre"  width="200" height="200">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="text-left">德國boy傘</h2> 
+					</div>
+					<hr></hr>			
 				</div>
-				<div class="col-lg-4">
-					<canvas id="bootstrap" height="130" width="130"></canvas>
-					<br>
-					<h4>Bootstrap</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 90,
-									color:"#f85c37"
-								},
-								{
-									value : 10,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-					</script>
+				<div class="row">
+					<hr></hr>
+					<div class="col-sm-4 ">   
+						<img src="assets/img/meia.png" class="img-thumbnail" alt="Cinque Terre"  width="200" height="200">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="text-left">Meia玩具有限公司</h2> 
+					</div>
+					<hr></hr>			
 				</div>
-				<div class="col-lg-4">
-					<canvas id="wordpress" height="130" width="130"></canvas>
-					<br>
-					<h4>Wordpress</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 55,
-									color:"#f85c37"
-								},
-								{
-									value : 45,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-					</script>
+				<div class="row">
+					<hr></hr>
+					<div class="col-sm-4 ">   
+						<img src="assets/img/cae.png" class="img-thumbnail" alt="Cinque Terre"  width="200" height="200">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="text-left">劍橋大學考試院</h2> 
+					</div>
+					<hr></hr>			
 				</div>
-			
-			</div>	
-		</div><!-- /container -->
+            </div>
+        </div><!-- /container -->
 	</div><!-- /dg -->
 	
 	<section id="portfolio" name="portfolio"></section>
@@ -235,7 +213,7 @@
                             display: inline-block;
                             cursor: pointer;
                             color: #ffffff;
-                            font-family: Arial;
+                            font-family: DFKai-SB;
                             font-size: 20px;
                             padding: 10px 42px;
                             text-decoration: none;
@@ -253,13 +231,13 @@
                     </style>
 
                     <form action="http://www.newsleopard.com/mailverify.htm?x=000000005bc0363f015c1c3b8f342ad2" target="popupwindow" method="post" onsubmit="window.open('', 'popupwindow', 'scrollbars=yes,width=350,height=115');return true" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 500px;margin: 10px auto;padding: 12px 20px;background: #F5F5F5;border-radius: 8px;">
-                        <h1 style="color: #888888; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0.1em 0;text-align: center;font-size: 1.5em;">訂閱電子報</h1>
+                        <h1 style="color: #888888; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0.1em 0;text-align: center;font-size: 1.5em; font-family:DFKai-SB">訂閱電子報</h1>
                         <fieldset>
-                            <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000;">我們將不定期提供最新資訊給您</label>
-                            <input placeholder="輸入 email" type="email" id="mail" name="email" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;;line-height: normal;background: #FFFFFF;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color: #FFFFFF;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
-                            <input placeholder="輸入 姓名" type="text" id="name" name="name" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;;line-height: normal;background: #FFFFFF;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color: #FFFFFF;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
-                            <button class="signupButton" type="submit" style="border-radius: 5px;width: 100%;border: 1px solid #44c767;background-color:#3ac162;border-width: 1px 1px 3px;overflow: visible;margin-bottom: 20px;text-transform: none;cursor: pointer;">立即提升業績</button>
-                            <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000;">您絕對不會收到非相關內容，且可以隨時取消訂閱</label>
+                            <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000; font-family:DFKai-SB">我們將不定期提供最新資訊給您</label>
+                            <input placeholder="輸入 email" type="email" id="mail" name="email" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;line-height: normal;background: #FFFFFF;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color: #FFFFFF;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
+                            <input placeholder="輸入 姓名" type="text" id="name" name="name" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;line-height: normal;background: #FFFFFF;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color: #FFFFFF;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
+                            <button class="signupButton" type="submit" style="border-radius: 5px;width: 100%;border: 1px solid #44c767;background-color:#3ac162;border-width: 1px 1px 3px;overflow: visible;margin-bottom: 20px;text-transform: none;cursor: pointer; font-family:DFKai-SB;">立即提升業績</button>
+                            <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000; font-family:DFKai-SB;">您絕對不會收到非相關內容，且可以隨時取消訂閱</label>
                         </fieldset>
                     </form>
 
@@ -273,8 +251,10 @@
 	<div id="w">
 		<div class="container">
 			<div class="row">
-				
-			</div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <img src="assets/img/jci.jpg"/>
+                </div>
+            </div>
 		</div><!-- /container -->
 	</div><!-- /w -->
 	
@@ -283,17 +263,24 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>JCI-Plan 井倉國際有限公司</h3>
+				<h3 class="h3 text-center">JCI-Plan 井倉國際有限公司</h3>
 				<br>
 				<br>
 				<div class="col-lg-2"></div>
 				<div class="col-lg-8">
-				<p>JCI-Plan的服務理念是將<bold>顧問服務</bold>和<bold>執行服務</bold>融為一體，不僅為客戶提供必要的市場顧問服務，還會將服務延續到執行階段，直至客戶取得有效成果。JCI-Plan期望與客戶的合作不是一次性的，是建立在相互瞭解及信任的基礎上，有長期的合作。JCI-Plan 助力客戶<bold>品牌知名</bold>，<bold>業務上門</bold>，您的業務所在就是我們的動力！</p>
+				    <p>
+                       JCI-Plan的服務理念是將<bold>顧問服務</bold>和<bold>執行服務</bold>融為一體，不僅為客戶提供必要的市場顧問服務，還會將服務延續到執行階段，直至客戶取得有效成果。
+                       JCI-Plan期望與客戶的合作不是一次性的，是建立在相互瞭解及信任的基礎上，有長期的合作。JCI-Plan，
+                       助力客戶<bold>品牌知名</bold>，<bold>業務上門</bold>，您的業務所在就是我們的動力！
+                    </p>
 				<br>
 				<br>
 				</div>
 				<div class="col-lg-2"></div>
 			</div>
+            <div class="container">
+                <button class="btn btn-danger btn-lg" type="button" onclick="location.href='#portfolio'" style="font-family:DFKai-SB;">立即加入JCI-PLAN</button>
+            </div>
 		</div><!-- /container -->
 	</div><!-- /g -->
 	
@@ -313,15 +300,15 @@
 					
 					<div class="col-lg-4">	
 						<h3><b>Call Us:</b></h3>
-						<h3><a href="tel:+886928603688">Call +886-926-603688</a></h3>
+						<h3><a href="tel:+88655933958">Call +886-5593-3958</a></h3>
 						<br>
 					</div>
 					
 					<div class="col-lg-4">
 						<h3><b>We Are Social</b></h3>
 						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href=""mailto:info@jciplan.com"><i class="icon-envelope"></i></a>
+							<a href="https://www.facebook.com/jciplan888"><i class="icon-facebook"></i></a>
+							<a href="mailto:info@jciplan.com"><i class="icon-envelope"></i></a>
 						</p>
 						<br>
 					</div>
@@ -332,9 +319,9 @@
 	
 	<div id="c">
 		<div class="container">
-            <h5>2017 © 版權所有 井倉國際有限公司 - All right reserved</h5>
+            <h5>2018 © 版權所有 井倉國際有限公司 - All right reserved</h5>
             <h5>
-                Created by <a href="https://pciplan.com">JCIPLAN.COM</a>統一編號: 52618589
+                Created by <a href="https://pciplan.com">JCIPLAN.COM</a> 統一編號: 52618589
             </h5>	
 		</div>
 	</div>
